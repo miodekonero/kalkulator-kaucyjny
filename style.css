@@ -1,0 +1,79 @@
+body {
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background: rgba(0, 0, 0, 0.8) url("background.jpg") no-repeat fixed center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+main {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    text-align: center;
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 30px;
+}
+input, select {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: inherit;
+    font-size: inherit;
+    background: none;
+    border: none;
+    field-sizing: content;
+    min-width: 30px;
+    text-align: center;
+    margin: 0;
+}
+input {
+    border-bottom: green dotted;
+    padding: 1px;
+}
+h1 {
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+i {
+    font-style: inherit;
+    color: green;
+}
+footer > p {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    margin: 15px;
+    font-size: 16px;
+}
+#sources {
+    left: 0;
+    margin-right: 50%;
+    text-align: left;
+}
+#signature {
+    right: 0;
+    margin-left: 50%;
+    text-align: right;
+}
+a {
+    color: inherit;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}
+input:focus, select:focus {
+    outline: none;
+}
